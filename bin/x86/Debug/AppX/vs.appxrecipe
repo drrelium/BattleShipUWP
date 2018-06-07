@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>475D85103FF04F8AD077DFB71312D78B8E788703193CFB110A0D49168AF4CA33</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>6AF952E969B860E37F793FEDD06FDD49965F8B0CFB91884EAE4F53124EBBAB1F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e3961657-3075-4f85-8ee4-8b01d4188717_1.0.0.0_x86__9vd4fg3xexcdt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e3961657-3075-4f85-8ee4-8b01d4188717_9vd4fg3xexcdt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e3961657-3075-4f85-8ee4-8b01d4188717</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-31T05:12:57.946</Modified>
+      <Modified>2018-06-07T02:16:14.148</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\BattleShipUWP.exe">
       <PackagePath>entrypoint\BattleShipUWP.exe</PackagePath>
-      <Modified>2018-05-31T05:12:56.738</Modified>
+      <Modified>2018-06-07T02:16:12.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Purkey\.nuget\packages\colorcode.core\2.0.3\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -619,7 +619,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\BattleShipUWP.xr.xml">
       <PackagePath>BattleShipUWP.xr.xml</PackagePath>
-      <Modified>2018-05-31T05:12:09.118</Modified>
+      <Modified>2018-06-07T01:13:11.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -627,7 +627,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-31T05:12:09.140</Modified>
+      <Modified>2018-06-07T02:16:12.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -796,11 +796,11 @@
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-23T00:21:24.500</Modified>
+      <Modified>2018-06-07T01:13:13.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Purkey\source\repos\BattleShipUWP\BattleShipUWP\bin\x86\Debug\Core\BattleShipUWP.exe">
       <PackagePath>BattleShipUWP.exe</PackagePath>
-      <Modified>2018-05-31T05:12:57.943</Modified>
+      <Modified>2018-06-07T02:16:14.139</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

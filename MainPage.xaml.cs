@@ -9,6 +9,7 @@ using Windows.UI.ViewManagement;
 using Windows.Graphics.Display;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Diagnostics;
 
 
 namespace BattleShipUWP
@@ -39,32 +40,19 @@ namespace BattleShipUWP
                 {
                     this.statusValue = value;
                     NotifyPropertyChanged("Status");
+                    Debug.WriteLine("Status NotifyPropertyChanged.");
                 }
             }
         }
     }
 
-    public class BoardModel : GridModel
-    {
-        private ObservableCollection<GridModel> _board;
-        public ObservableCollection<GridModel> Board
-        {
-            get { return _board; }
-            set
-            {
-                _board = value;
-                NotifyPropertyChanged();
-            }
-        }
-    }
 
-    public sealed partial class MainPage : Page
+public sealed partial class MainPage : Page
     {
-        public BoardModel mainBoard;
+        ObservableCollection<GridModel> mainBoard = new ObservableCollection<GridModel>();
         
         public MainPage()
         {
-        //    mainBoard = new BoardModel();
             this.InitializeComponent();
         }
 
@@ -81,15 +69,16 @@ namespace BattleShipUWP
             for (int i = 0; i < GridSize; i++)
             {
                 //      newBoard.Add(new UserData() { Color = "blue" });
-                mainBoard.Board.Add(new GridModel { Status = "Clear" });
+                mainBoard.Add(new GridModel { Status = "Clear" });
             }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((Button) sender).Background = new SolidColorBrush(Windows.UI.Colors.Red);
-            model.Color = "Blue";
-
+            //         this.mainBoard[4].Status = "Shot";
+            ((Button)sender).Content = "Shot";
+            
         }
     }
 }
